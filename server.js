@@ -44,7 +44,7 @@ app.prepare()
 .then(() => {
   const server = express();
   // SF Latitude & Longitude
-  const referencePosition = { lat: 37.7749, lng: 122.4194 };
+  const referencePosition = { lat: 37.7749, lng: -122.431297 };
 
   let people = initializePeople(referencePosition);
 
